@@ -76,7 +76,7 @@ ul li {
     font-size: 18pt;
     text-align: center;
     display: inline-block;
-    background-color: lightsalmon;
+    background-color: #FCCC66;
 }
 
 .contacts{
@@ -107,4 +107,5 @@ ul li {
 
 .work-title{
     font-style: italic;
+    margin-top: 5;
 }
