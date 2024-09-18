@@ -1,7 +1,3 @@
-<h1>Novikov Alexander</h1>
+## About
 
-<h2>
-<a href="https://novikov-ai.github.io/"> 
-    -> CV <-  
-</a>
-</h2>
+[Here](https://novikov-ai.github.io/) my blog lives, explore it!
