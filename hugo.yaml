@@ -1,13 +1,16 @@
-baseURL: https://example.org/
+baseURL: https://novikov-ai.github.io/
 languageCode: en-us
-title: time2code
+title: Novikov > Journey into Big Tech
 theme: ["PaperMod"]
 
 menu:
   main:
-    - name: "CV"
-      url: ""
+    - name: "Email"
+      url: "mailto:nvkv_ai@outlook.com"
       weight: 1
-    - name: "Posts"
-      url: ""
-      weight: 1
+    - name: "LinkedIn"
+      url: "https://www.linkedin.com/in/novikov-ai/"
+      weight: 2
+    - name: "Github"
+      url: "https://github.com/novikov-ai"
+      weight: 3
