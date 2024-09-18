@@ -4,62 +4,29 @@ title: "Novikov Alexander CV"
 
 # Alexander Novikov
 
-**Location:** Saint Petersburg, RU  
-**Email:** [nvkv_ai@outlook.com](mailto:nvkv_ai@outlook.com)  
-**LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/novikov-ai/)  
-**GitHub:** [GitHub Profile](https://github.com/novikov-ai)
+[Email](mailto:nvkv_ai@outlook.com) | [LinkedIn](https://www.linkedin.com/in/novikov-ai/) | [GitHub](https://github.com/novikov-ai)
 
 ---
 
-## WORK EXPERIENCE
+# Introduction
 
-### Avito, Moscow, RU
-**Software Engineer, Services Vertical**  
-*2022 - Present*
+👋 Hello! My name is Alexander, and I'm excited to see you here.
 
-- Implemented and delivered various features from scratch, including price list prefill and grouping by type, increasing the total number of items with price lists by 50%.
-- Launched over 10 successful A/B experiments with high-load services like search and recommendations (RPM > 150K).
+## Brief Overview
 
-### Genpro, Moscow, RU
-**Software Engineer, BIM Department**  
-*2021 - 2022*
+* 👨‍💻 Backend Software Engineer at a product company with a background in construction.
+* 🚀 Currently, I contribute to the development of [Avito](http://avito.ru), the largest classified site in the world, where I help people on a daily basis.
+* 💡 I'm passionate about [Go](https://go.dev/) programming language, but I also have experience with [.NET](https://dotnet.microsoft.com/en-us/) (especially C#).
+* 🏗 I am a BIM-certified professional with over 5 years of experience, and I have successfully developed several tools and approaches:
+  * Implemented a neat [way](https://github.com/novikov-ai/revit-basic-command) to create an ExternalCommand.
+  * Developed a new [approach](https://github.com/novikov-ai/revit-ribbon-builder) for creating a RibbonPanel.
+  * Created a useful [tool](https://github.com/novikov-ai/revit-sp-transfer) for constants creation from a Shared Parameters File.
+* ♟ In my free time, I enjoy playing chess. Feel free to challenge me on [lichess.org](https://lichess.org/@/ainovikov).
 
-- Developed more than 20 desktop applications for construction needs, reducing drawing creation time by 2-3 times and minimizing human errors using C#, Autodesk Revit API, .NET Framework, MS SQL Server, and WPF.
+## Collaboration
 
-### Etalon Group, Saint Petersburg, RU
-**Leading Engineer, Department of Digital Innovations**  
-*2018 - 2022*
+If you are interested in collaborating or just want to chat, please connect with me on [LinkedIn](https://www.linkedin.com/in/novikov-ai).
 
-- Designed and implemented a toolset for Autodesk Revit, saving approximately $20,000 annually using the .NET stack.
-- Developed algorithms that reduced model comparison time by 2.5 times.
+## Blog
 
-### Signy Group (Rambøll Group A/S), Saint Petersburg, RU
-**Automation Specialist, BIM Coordinator**  
-*2018*
-
-- Created a bill of quantities methodology and batch scripts using Autodesk Navisworks, Python, and Design Script, saving 3 months of work for 10 engineers.
-- Enhanced information modeling culture within the company by writing standards (BEP, EIR) and providing training.
-
-### Expoforum Design, Saint Petersburg, RU
-**Engineer**  
-*2016 - 2018*
-
-- Implemented Building Information Modeling (BIM) and created a historical building model using point clouds, detecting approximately 3,000 design phase mistakes.
-- Developed a method to store construction documents for facility management within a 3D information model.
-
----
-
-## EDUCATION
-
-### Polytech University, Saint Petersburg, RU
-**MS, Engineering**  
-*Graduation Date: 2018*  
-**GPA:** 4.0 / 4.0
-
----
-
-## SKILLS
-
-- **Experienced in:** Building scalable and sustainable systems, launching product experiments, and working with complex algorithms (including 2D and 3D geometry).
-- **Certified Professional:** Building Information Modeling (BIM management, teaching, etc.).
-- **Technical Stack:** Go, C#, .NET, SQL, NoSQL, Kafka, RabbitMQ, Grafana.
+Check out [my tech blog](https://t.me/time2code) in telegram [RU]!
