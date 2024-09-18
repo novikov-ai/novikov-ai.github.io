@@ -2,3 +2,12 @@ baseURL: https://example.org/
 languageCode: en-us
 title: time2code
 theme: ["PaperMod"]
+
+menu:
+  main:
+    - name: "CV"
+      url: ""
+      weight: 1
+    - name: "Posts"
+      url: ""
+      weight: 1
