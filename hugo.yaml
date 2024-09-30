@@ -1,16 +1,43 @@
 baseURL: https://novikov-ai.github.io/
 languageCode: en-us
-title: Novikov > Journey into Big Tech
 theme: ["PaperMod"]
 
-menu:
-  main:
-    - name: "Email"
-      url: "mailto:nvkv_ai@outlook.com"
-      weight: 1
-    - name: "LinkedIn"
-      url: "https://www.linkedin.com/in/novikov-ai/"
-      weight: 2
-    - name: "Github"
-      url: "https://github.com/novikov-ai"
-      weight: 3
+languages:
+  en: 
+    languageName: English
+    weight: 1
+    contentDir: "content/en"
+    title: "Novikov > Journey into Big Tech"
+    menu:
+      main:
+        - name: Info
+          url: "/about/"
+          weight: 1
+        - name: "Email"
+          url: "mailto:nvkv_ai@outlook.com"
+          weight: 2
+        - name: "LinkedIn"
+          url: "https://www.linkedin.com/in/novikov-ai/"
+          weight: 3
+        - name: "Github"
+          url: "https://github.com/novikov-ai"
+          weight: 4
+  ru:
+    languageName: Русский
+    weight: 2
+    contentDir: "content/ru"
+    title: "Новиков > Путь в Big Tech"
+    menu:
+      main:
+        - name: Обо мне
+          url: "/ru/about/"
+          weight: 1
+        - name: "Почта"
+          url: "mailto:nvkv_ai@outlook.com"
+          weight: 2
+        - name: "LinkedIn"
+          url: "https://www.linkedin.com/in/novikov-ai/"
+          weight: 3
+        - name: "Github"
+          url: "https://github.com/novikov-ai"
+          weight: 4

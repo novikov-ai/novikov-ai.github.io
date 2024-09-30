@@ -1,7 +1,3 @@
----
-title: "Novikov Alexander CV"
----
-
 # Introduction
 
 👋 Hello! My name is Alexander, and I'm excited to see you here.
@@ -16,6 +12,10 @@ title: "Novikov Alexander CV"
   * Developed a new [approach](https://github.com/novikov-ai/revit-ribbon-builder) for creating a RibbonPanel.
   * Created a useful [tool](https://github.com/novikov-ai/revit-sp-transfer) for constants creation from a Shared Parameters File.
 * ♟ In my free time, I enjoy playing chess. Feel free to challenge me on [lichess.org](https://lichess.org/@/ainovikov).
+
+## Collaboration
+
+If you are interested in collaborating or just want to chat, please connect with me on [LinkedIn](https://www.linkedin.com/in/novikov-ai).
 
 ## Blog
 
