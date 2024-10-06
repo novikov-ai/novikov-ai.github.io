@@ -10,7 +10,8 @@ permalinks:
   posts: /posts/:slug
 params:
   description: "Sharing my expertise as a software engineer in Big Tech"
-  images: "/images/logo/time2code.jpg"
+  images:
+    - "/images/logo/time2code.jpg"
   ogTitle: "Alexander Novikov's Personal Blog"
   ogDescription: "Sharing my expertise as a software engineer in Big Tech"
   ogImage: "/images/logo/time2code.jpg"
