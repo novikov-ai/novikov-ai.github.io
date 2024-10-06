@@ -9,7 +9,6 @@ markup:
 permalinks:
   posts: /posts/:slug
 params:
-  author: Alexander Novikov
   description: "Sharing my expertise as a software engineer in Big Tech"
   images:
     - "/images/blog/wallpaper.jpg"
