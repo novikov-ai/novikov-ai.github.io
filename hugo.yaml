@@ -7,7 +7,7 @@ markup:
     style: "monokai"  
     lineNos: true    
 permalinks:
-  posts: /posts/:year/:month/:day/:slug
+  posts: /posts/:slug
 
 languages:
   en: 
