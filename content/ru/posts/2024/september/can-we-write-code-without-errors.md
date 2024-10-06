@@ -1,10 +1,13 @@
 ---
-date: 2024-09-24
-draft: false
-params:
-  author: Александр Новиков
 title: Можем ли мы писать код без ошибок?
-weight: 10
+slug: can-we-write-code-without-errors                 
+date: 2024-09-24T16:23:34+03:00
+draft: false                                 
+params:
+  author: Александр Новиков                  
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true         
+weight: 10                                   
 ---
 
 Мой ответ: нет.
@@ -39,4 +42,4 @@ weight: 10
 
 Самое важное - делать правильные выводы, обсуждать все проблемы на ретро и формировать такие договоренности внутри команды, чтобы в будущем качество своего продукта держать на стабильно высоком уровне.
 
-Источник: [@time2code](https://t.me/time2code/302)
+*Читайте оригинальный пост и присоединяйтесь к обсуждению в Телеграм: [@time2code](https://t.me/time2code/302)*
