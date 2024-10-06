@@ -1,4 +1,4 @@
-baseURL: google.com
+baseURL: https://novikov-ai.github.io/
 languageCode: en-us
 theme: ["PaperMod"]
 markup:
