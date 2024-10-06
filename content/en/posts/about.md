@@ -3,6 +3,8 @@ draft: false
 title: 👋 About me
 weight: 1
 url: /about/
+params:
+  ShowPostNavLinks: true 
 ---
 
 Hello! My name is Alexander, and I'm excited to see you here.
