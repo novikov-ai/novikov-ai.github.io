@@ -1,7 +1,7 @@
 ---
 title: Почему мозг избегает сложных задач. Как его заставить работать?   
 slug: why-brain-avoids-complex-tasks-how-to-get-it-to-work                 
-date: 2024-10-06T17:49:42+03:00
+date: 2024-10-03T17:49:42+03:00
 draft: false                                 
 params:
   author: Александр Новиков                  
