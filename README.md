@@ -2,7 +2,7 @@
 
 [Here](https://novikov-ai.github.io/) my blog lives, explore it!
 
-How to add new post:
+How to add a new post:
 
 ~~~bash
 export SLUG="why-brain-avoids-complex-tasks-how-to-get-it-to-work"
