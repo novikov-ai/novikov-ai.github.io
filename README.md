@@ -5,9 +5,9 @@
 How to add new post:
 
 ~~~bash
-export SLUG="simple-programming-illusion"
+export SLUG="why-brain-avoids-complex-tasks-how-to-get-it-to-work"
 export YEAR="2024"
-export MONTH="september"
+export MONTH="october"
 
 hugo new posts/$YEAR/$MONTH/$SLUG.md --kind post_en &&
 hugo new ../ru/posts/$YEAR/$MONTH/$SLUG.md --kind post_ru
