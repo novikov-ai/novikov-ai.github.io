@@ -9,12 +9,14 @@ markup:
 permalinks:
   posts: /posts/:slug
 params:
+  author: Alexander Novikov
   description: "Sharing my expertise as a software engineer in Big Tech"
   images:
-    - "/images/logo/time2code.jpg"
+    - "/images/blog/wallpaper.jpg"
+  ogAuthor: Alexander Novikov
   ogTitle: "Alexander Novikov's Personal Blog"
   ogDescription: "Sharing my expertise as a software engineer in Big Tech"
-  ogImage: "/images/logo/time2code.jpg"
+  ogImage: "/images/blog/wallpaper.jpg"
   ogType: "website"
 
 
