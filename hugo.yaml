@@ -1,17 +1,26 @@
-baseURL: https://novikov-ai.github.io/
+baseURL: google.com
 languageCode: en-us
 theme: ["PaperMod"]
+markup:
+  highlight:
+    noClasses: false   
+    style: "monokai"  
+    lineNos: true    
+permalinks:
+  posts: /posts/:year/:month/:day/:slug
 
 languages:
   en: 
+    title: Alexander Novikov
     languageName: English
     weight: 1
     contentDir: "content/en"
-    title: "Novikov > Journey into Big Tech"
+    params: 
+      dateFormat: "January 2, 2006"
     menu:
       main:
-        - name: Info
-          url: "/about/"
+        - name: "All posts"
+          url: "posts"
           weight: 1
         - name: "Email"
           url: "mailto:nvkv_ai@outlook.com"
@@ -23,16 +32,18 @@ languages:
           url: "https://github.com/novikov-ai"
           weight: 4
   ru:
+    title: Александр Новиков
     languageName: Русский
     weight: 2
     contentDir: "content/ru"
-    title: "Новиков > Путь в Big Tech"
+    params:
+      dateFormat: "2 января, 2006 "
     menu:
       main:
-        - name: Обо мне
-          url: "/ru/about/"
+        - name: "Все посты"
+          url: "ru/posts"
           weight: 1
-        - name: "Почта"
+        - name: "Email"
           url: "mailto:nvkv_ai@outlook.com"
           weight: 2
         - name: "LinkedIn"
