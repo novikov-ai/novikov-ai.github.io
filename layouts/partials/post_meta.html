@@ -1,0 +1,32 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+  {{- if eq .Lang "ru" }}
+    {{- $monthIndex := .Date.Month | int }}
+    {{- $month := index (slice "января" "февраля" "марта" "апреля" "мая" "июня" "июля" "августа" "сентября" "октября" "ноября" "декабря") (sub $monthIndex 1) }}
+    {{- $formattedDate := printf "%d %s %d" .Date.Day $month .Date.Year }}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" .Date $formattedDate)) }}
+  {{- else }}
+    {{- $dateFormat := .Site.Language.Params.dateFormat -}}
+    {{- $formattedDate := .Date.Format $dateFormat -}}
+    {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" .Date $formattedDate)) }}
+  {{- end }}
+{{- end }}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") -}}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount | default (printf "%d words" .WordCount))) }}
+{{- end }}
+
+{{- if not (.Param "hideAuthor") -}}
+{{- with (partial "author.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}
