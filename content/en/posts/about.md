@@ -7,7 +7,7 @@ params:
   ShowPostNavLinks: true 
 ---
 
-Hello! My name is Alexander, and I'm excited to see you here.
+Hello! My name is Alexander, and I'm excited to see you here!
 
 <!--more-->
 
