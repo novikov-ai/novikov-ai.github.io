@@ -6,7 +6,8 @@ draft: false
 params:
   author: Alexander Novikov                  
   ShowCodeCopyButtons: true
-  ShowPostNavLinks: true                
+  ShowPostNavLinks: true
+  tags: [productivity]                
 weight: 10                                   
 ---
 

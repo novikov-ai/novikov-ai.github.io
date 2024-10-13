@@ -6,8 +6,9 @@ draft: false
 params:
   author: Alexander Novikov                  
   ShowCodeCopyButtons: true
-  ShowPostNavLinks: true                
-weight: 10                                   
+  ShowPostNavLinks: true
+  tags: [grow]                
+weight: 10                                  
 ---
 
 In mature cross-functional teams, there’s a concept known as a feature lead.

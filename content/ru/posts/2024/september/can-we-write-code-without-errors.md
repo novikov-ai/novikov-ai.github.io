@@ -6,7 +6,8 @@ draft: false
 params:
   author: Александр Новиков                  
   ShowCodeCopyButtons: true
-  ShowPostNavLinks: true         
+  ShowPostNavLinks: true
+  tags: [dev]         
 weight: 10                                   
 ---
 
