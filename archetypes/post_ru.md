@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: []         
-weight: 10                                   
+weight: 10
+layout: custom-layout                                   
 ---
 
 [Summary here]
