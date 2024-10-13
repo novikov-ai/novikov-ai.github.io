@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [bigtech, culture, grow]         
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Вчера было ровно 2 года с момента, как я работаю в Авито. 

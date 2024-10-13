@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [vscode, dev]                  
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Вчера ставил расширение на VS Code, которое поддерживается коллегами для внутреннего удобства разработки.  

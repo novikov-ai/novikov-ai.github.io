@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [productivity]         
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Почему мозг избегает сложных задач. Как его заставить работать? 

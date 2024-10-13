@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [go]         
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Изначально я хотел написать про Go, но, заметив, что большинство с ним незнакомо, решил обобщить. 

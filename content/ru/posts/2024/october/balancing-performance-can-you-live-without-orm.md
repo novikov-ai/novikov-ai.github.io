@@ -6,9 +6,10 @@ draft: false
 params:
   author: Александр Новиков                  
   ShowCodeCopyButtons: true
-  ShowPostNavLinks: true         
+  ShowPostNavLinks: true
+  tags: [go, sql, dev]         
 weight: 10
-tags: [go, sql, dev]                                   
+layout: custom-layout
 ---
 
 Многие, переходя на Go, начинают искать простой и удобный способ по работе с базой данных. Разработчики так привыкли, и это нормально. 

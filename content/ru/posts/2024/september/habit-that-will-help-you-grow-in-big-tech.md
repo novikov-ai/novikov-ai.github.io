@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [culture, grow]         
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Одной из важнейших компетенций, на которую смотрят при возможном пересмотре грейда, является "инженерная культура". 
