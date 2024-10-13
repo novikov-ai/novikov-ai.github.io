@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [productivity]                
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 The brain is the most energy-consuming part of our body. It often deceives us, but why?

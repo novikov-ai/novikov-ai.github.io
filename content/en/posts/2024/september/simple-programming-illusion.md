@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true1
   tags: [go]                
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Initially, I intended to write about Go, but noticing that most people aren’t familiar with it, I decided to generalize.

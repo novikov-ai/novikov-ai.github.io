@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [grow]                
-weight: 10                                  
+weight: 10
+layout: custom-layout
 ---
 
 In mature cross-functional teams, there’s a concept known as a feature lead.

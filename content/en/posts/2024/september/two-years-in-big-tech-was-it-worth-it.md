@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [bigtech, culture, grow]                
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Yesterday marked exactly two years since I started working at Avito.

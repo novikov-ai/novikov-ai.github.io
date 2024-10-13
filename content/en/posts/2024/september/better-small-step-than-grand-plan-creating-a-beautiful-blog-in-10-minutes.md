@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [productivity]                
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Throughout my career, I can't recall a single moment when I didn’t think about creating my own website or blog. Even when I was a junior engineer, I envisioned having a personal portfolio page where I could showcase the projects I had worked on. This year, one of my goals was to set up my own blog on a separate domain.

@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [vscode, dev]                
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 Yesterday, I was installing an extension for VS Code, which is maintained by colleagues for internal development convenience.

@@ -8,7 +8,8 @@ params:
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
   tags: [culture, grow]                
-weight: 10                                   
+weight: 10
+layout: custom-layout
 ---
 
 One of the key competencies looked at during potential grade reviews is “engineering culture.”

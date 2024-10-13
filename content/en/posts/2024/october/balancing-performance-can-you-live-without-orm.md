@@ -6,9 +6,10 @@ draft: false
 params:
   author: Alexander Novikov                  
   ShowCodeCopyButtons: true
-  ShowPostNavLinks: true                
+  ShowPostNavLinks: true
+  tags: [go, sql, dev]                
 weight: 10
-tags: [go, sql, dev]                                         
+layout: custom-layout     
 ---
 
 Many developers, when transitioning to Go, start looking for an easy and convenient way to work with databases. It’s normal – developers get used to tools that make their lives easier.
