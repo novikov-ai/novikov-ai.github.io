@@ -1,5 +1,7 @@
 {{- define "main" }}
 
+<link rel="stylesheet" href="{{ "layout/tags.css" | relURL }}">
+
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
@@ -79,14 +81,10 @@
   {{- end }}
 
   {{- if .Params.tags }}
-  <div class="tags" style="padding: 2px;">
-    <div style="display: flex; flex-wrap: wrap; justify-content: flex-end; margin-top: 5px;">
+  <div class="preview-post-tags">
+    <div>
       {{ range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}" style="margin-right: 5px; 
-                  color: white; 
-                  background-color: rgb(55, 162, 121); 
-                  border-radius: 6px; 
-                  padding: 1px 12px; ">
+      <a href="/tags/{{ . | urlize }}">
         {{ . }}
       </a>
       {{ end }}

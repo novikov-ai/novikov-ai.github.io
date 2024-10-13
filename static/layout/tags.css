@@ -1,0 +1,41 @@
+.post-tags {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.post-tags li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.post-tags a {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(55, 162, 121);
+    text-align: center;
+    margin-right: -6px;
+    border-radius: 6px;
+    padding: 0px 12px;
+}
+
+.preview-post-tags {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.preview-post-tags a {
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(55, 162, 121);
+    text-align: center;
+    display: inline;
+    border-radius: 6px;
+    margin-right: 5px;
+    padding: 8px 12px;
+}
