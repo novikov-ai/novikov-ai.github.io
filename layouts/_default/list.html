@@ -1,110 +1,126 @@
 {{- define "main" }}
 
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
-  {{- partial "index_profile.html" . }}
+{{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
 
-  {{- if not .IsHome | and .Title }}
-    <header class="page-header">
-      {{- partial "breadcrumbs.html" . }}
-      <h1>
-        {{ .Site.Params.pageHeader }}  <!-- Deprecated in Hugo 0.135.0 -->
-        {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
-          {{- with .OutputFormats.Get "rss" }}
-            <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round" height="23">
-                <path d="M4 11a9 9 0 0 1 9 9" />
-                <path d="M4 4a16 16 0 0 1 16 16" />
-                <circle cx="5" cy="19" r="1" />
-              </svg>
-            </a>
-          {{- end }}
-        {{- end }}
-      </h1>
-      {{- if .Description }}
-        <div class="post-description">
-          {{ .Description | markdownify }}
-        </div>
-      {{- end }}
-    </header>
-  {{- end }}
-
-  <div class="post-content">
-    {{- if not (.Param "disableAnchoredHeadings") }}
-      {{- partial "anchored_headings.html" .Content -}}
-    {{- else }}
-      {{ .Content }}
-    {{ end }}
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>
+    {{ .Site.Params.pageHeader }} <!-- Deprecated in Hugo 0.135.0 -->
+    {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
+    {{- with .OutputFormats.Get "rss" }}
+    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+    {{- end }}
+    {{- end }}
+  </h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
   </div>
-
-  {{- $pages := union .RegularPages .Sections }}
-
-  {{- if .IsHome }}
-    {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
   {{- end }}
+</header>
+{{- end }}
 
-  {{- $paginator := .Paginate $pages }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}
+  {{ .Content }}
+  {{ end }}
+</div>
 
-  {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
-    {{- partial "home_info.html" . }}
-  {{- end }}
+{{- $pages := union .RegularPages .Sections }}
 
-  {{- range $index, $page := $paginator.Pages }}
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" }}
+{{- end }}
 
-    {{- $class := "post-entry" }}
+{{- $paginator := .Paginate $pages }}
 
-    <article class="{{ $class }}">
-      {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
-      <header class="entry-header">
-        <h2 class="entry-hint-parent">
-          <a href="{{ .Permalink }}">{{ .Title }}</a>  <!-- Link to the full post -->
-          {{- if .Draft }}
-            <span class="entry-hint" title="Draft">...</span>  <!-- Optional Draft indicator -->
-          {{- end }}
-        </h2>
-      </header>
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
 
-      {{- if (ne (.Param "hideSummary") true) }}
-        <div class="entry-content">
-          <p>{{ .Summary }}{{ if .Truncated }}{{i18n "ReadMore"}}{{ end }}</p>
-        </div>
+{{- range $index, $page := $paginator.Pages }}
+
+{{- $class := "post-entry" }}
+
+<article class="{{ $class }}">
+  {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" false) }}
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">
+      <a href="{{ .Permalink }}">{{ .Title }}</a> <!-- Link to the full post -->
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">...</span> <!-- Optional Draft indicator -->
       {{- end }}
+    </h2>
+  </header>
 
-      {{- if not (.Param "hideMeta") }}
-        <footer class="entry-footer">
-          {{- partial "post_meta.html" . -}}
-        </footer>
+  {{- if (ne (.Param "hideSummary") true) }}
+  <div class="entry-content">
+    <p>{{ .Summary }}{{ if .Truncated }}{{i18n "ReadMore"}}{{ end }}</p>
+  </div>
+  {{- end }}
+
+  {{- if not (.Param "hideMeta") }}
+  <footer class="entry-footer">
+    {{- partial "post_meta.html" . -}}
+  </footer>
+  {{- end }}
+
+  {{- if .Params.tags }}
+  <div class="tags" style="padding: 2px;">
+    <div style="display: flex; flex-wrap: wrap; justify-content: flex-end; margin-top: 5px;">
+      {{ range .Params.tags }}
+      <a href="/tags/{{ . | urlize }}" style="margin-right: 5px; 
+                  color: white; 
+                  background-color: rgb(55, 162, 121); 
+                  border-radius: 6px; 
+                  padding: 1px 12px; ">
+        #{{ . }}
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{- end }}
+
+  <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+</article>
+
+{{- end }}
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
       {{- end }}
-
-      <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-    </article>
-
-  {{- end }}
-
-  {{- if gt $paginator.TotalPages 1 }}
-    <footer class="page-footer">
-      <nav class="pagination">
-        {{- if $paginator.HasPrev }}
-          <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-            «&nbsp;{{ i18n "prev_page" }}&nbsp;
-            {{- if (.Param "ShowPageNums") }}
-              {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
-            {{- end }}
-          </a>
-        {{- end }}
-        {{- if $paginator.HasNext }}
-          <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-            {{- i18n "next_page" }}&nbsp;
-            {{- if (.Param "ShowPageNums") }}
-              {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
-            {{- end }}&nbsp;»
-          </a>
-        {{- end }}
-      </nav>
-    </footer>
-  {{- end }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{- i18n "next_page" }}&nbsp;
+      {{- if (.Param "ShowPageNums") }}
+      {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+      {{- end }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
 
 {{- end }}{{/* end profileMode */}}
 
