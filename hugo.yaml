@@ -32,15 +32,18 @@ languages:
         - name: "All posts"
           url: "posts"
           weight: 1
+        - name: "Topics"
+          url: "tags"
+          weight: 2
         - name: "Email"
           url: "mailto:nvkv_ai@outlook.com"
-          weight: 2
+          weight: 3
         - name: "LinkedIn"
           url: "https://www.linkedin.com/in/novikov-ai/"
-          weight: 3
+          weight: 4
         - name: "Github"
           url: "https://github.com/novikov-ai"
-          weight: 4
+          weight: 5
   ru:
     title: Александр Новиков
     languageName: Русский
@@ -53,12 +56,15 @@ languages:
         - name: "Все посты"
           url: "ru/posts"
           weight: 1
+        - name: "Поиск по тегам"
+          url: "ru/tags"
+          weight: 2
         - name: "Email"
           url: "mailto:nvkv_ai@outlook.com"
-          weight: 2
+          weight: 3
         - name: "LinkedIn"
           url: "https://www.linkedin.com/in/novikov-ai/"
-          weight: 3
+          weight: 4
         - name: "Github"
           url: "https://github.com/novikov-ai"
-          weight: 4
+          weight: 5
