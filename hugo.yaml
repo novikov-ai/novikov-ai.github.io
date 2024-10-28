@@ -17,7 +17,15 @@ params:
   ogDescription: "Sharing my expertise as a software engineer in Big Tech"
   ogImage: "/images/blog/wallpaper.jpg"
   ogType: "website"
-
+  socialIcons:
+    - name: cv
+      url: "cv/en.html"
+    - name: github
+      url: "https://github.com/novikov-ai"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/novikov-ai/"
+    - name: email
+      url: "mailto:nvkv_ai@outlook.com"
 
 languages:
   en: 
@@ -35,15 +43,6 @@ languages:
         - name: "Topics"
           url: "tags"
           weight: 2
-        - name: "Email"
-          url: "mailto:nvkv_ai@outlook.com"
-          weight: 3
-        - name: "LinkedIn"
-          url: "https://www.linkedin.com/in/novikov-ai/"
-          weight: 4
-        - name: "Github"
-          url: "https://github.com/novikov-ai"
-          weight: 5
   ru:
     title: Александр Новиков
     languageName: Русский
@@ -51,6 +50,7 @@ languages:
     contentDir: "content/ru"
     params:
       dateFormat: "2 января, 2006 "
+        
     menu:
       main:
         - name: "Все посты"
@@ -59,12 +59,4 @@ languages:
         - name: "Поиск по тегам"
           url: "ru/tags"
           weight: 2
-        - name: "Email"
-          url: "mailto:nvkv_ai@outlook.com"
-          weight: 3
-        - name: "LinkedIn"
-          url: "https://www.linkedin.com/in/novikov-ai/"
-          weight: 4
-        - name: "Github"
-          url: "https://github.com/novikov-ai"
-          weight: 5
+        
