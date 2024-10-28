@@ -19,7 +19,7 @@ params:
   ogType: "website"
   socialIcons:
     - name: cv
-      url: "cv/en.html"
+      url: "https://novikov-ai.github.io/cv/en.html"
     - name: github
       url: "https://github.com/novikov-ai"
     - name: linkedin
