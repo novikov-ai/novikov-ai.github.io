@@ -3,9 +3,19 @@
     margin: 0;
 }
 
-@media print{
-    .sheet-outer.A4, .sheet-outer.A5.landscape{
-        width: 210mm
+@media (max-width: 768px) {
+    .sheet-outer, .sheet {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+    .parent-centered {
+        display: block;
+        text-align: center;
+    }
+    .name, .contacts, .caps.header, .work-company, .work-city, .work-period, .work-title {
+        font-size: smaller;
     }
 }
 
