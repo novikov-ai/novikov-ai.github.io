@@ -71,4 +71,4 @@ I was scared about it myself just a year ago. When you start thinking about how 
 
 But if something really scares you, I recommend just starting to do it. You’ll quickly see yourself grow, and soon enough, you’ll get used to it, and it’ll become second nature.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/294)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/294)*

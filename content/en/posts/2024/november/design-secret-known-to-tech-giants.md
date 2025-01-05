@@ -114,4 +114,4 @@ It’s worth noting that TDR approval is entirely asynchronous. This makes it qu
 
 If you delve into this topic, you may come across the [ADR](https://github.com/joelparkerhenderson/architecture-decision-record) (Architecture Decision Record). This is another important document, but it’s a separate, more localized process for individual solutions.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/279)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/279)*

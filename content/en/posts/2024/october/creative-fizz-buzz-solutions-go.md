@@ -158,4 +158,4 @@ Got more creative ideas for solving Fizz Buzz? Feel free to [contribute](https:/
 
 Don’t know Go but familiar with the original method in other languages? Create an issue, and we’ll translate your solution into Go! Let’s collect the craziest Fizz Buzz solutions together ;)
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/308)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/308)*

@@ -49,4 +49,4 @@ You can formally study the language specification, understand how to build primi
 
 But to write good code that has minimal bugs, is easy to read, and maintainable will take years. This comes with experience, and that is what mastery is all about.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/297)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/297)*

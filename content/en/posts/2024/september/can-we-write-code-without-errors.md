@@ -46,4 +46,4 @@ In a world of agile methodologies, we often sacrifice numerous formal and strict
 
 The most important thing is to draw the right conclusions, discuss all problems in retrospectives, and form agreements within the team to maintain a consistently high quality of the product in the future.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/302)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/302)*

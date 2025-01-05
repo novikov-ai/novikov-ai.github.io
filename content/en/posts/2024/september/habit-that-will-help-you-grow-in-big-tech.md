@@ -61,4 +61,4 @@ It’s nice that this situation arose spontaneously. I felt that the approach to
 
 This gives a pleasant sense of satisfaction and makes you a little happier and stronger as an engineer.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/300)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/300)*

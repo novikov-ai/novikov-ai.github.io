@@ -76,4 +76,4 @@ While in a startup, there's an opportunity to build an MVP from scratch, working
 
 Nonetheless, for me, the pros outweigh the cons. So, if you’re fortunate enough to land a job at such a company, I recommend staying to gain valuable experience and become even stronger.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/303)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/303)*

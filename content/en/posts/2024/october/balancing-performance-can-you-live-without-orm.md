@@ -71,4 +71,4 @@ INSERT INTO element (title, price) VALUES ($1, $2), ($3, $4)
 
 Of course, it would be interesting to look at various performance tests with and without this library (I might do some benchmarks in the future), but for now, it seems like a great tool when you’ve outgrown sqlx but aren’t ready to dive into a full ORM just yet.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/307)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/307)*

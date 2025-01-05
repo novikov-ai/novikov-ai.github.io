@@ -64,4 +64,4 @@ Start designing. Gather feedback on your designs. Then design again, improving t
 
 In the end, you’ll make a noticeable leap in your development.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/278)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/278)*

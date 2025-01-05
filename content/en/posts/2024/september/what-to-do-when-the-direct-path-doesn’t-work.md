@@ -64,4 +64,4 @@ Perhaps it’s tasks like these that I enjoy about development - they force you 
 
 I recommend that when a straightforward approach fails, take a moment to pause, jot down your question, and find an alternative solution by digging a bit deeper. This not only expands your expertise but also hones your systematic problem-solving skills.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/299)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/299)*

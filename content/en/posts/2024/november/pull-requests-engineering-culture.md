@@ -80,4 +80,4 @@ I’ll admit, I’ve had to submit large pull requests myself—especially when 
 We have the power to demonstrate engineering culture and respect for our colleagues by organizing pull requests to be as atomic and clear as possible, making life easier for reviewers.
 
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/322)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/322)*

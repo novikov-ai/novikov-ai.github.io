@@ -18,4 +18,4 @@ layout: custom-layout
 
 [Your content here]
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code)*

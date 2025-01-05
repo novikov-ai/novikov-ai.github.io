@@ -63,4 +63,4 @@ This isn’t about technical skills alone—it’s about the level of abstractio
 
 Of course, you can’t shift your mindset in 15 seconds—even if you re-read this post. It’s a long journey of self-improvement that comes with experience.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/326)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/326)*

@@ -57,4 +57,4 @@ In essence, I created my new site in less than 10 minutes plus 30-60 minutes spe
 
 I recommend always taking small steps. If you set an ambitious goal, start small to get something done. This way, you’ll get moving, shed the guilt of procrastination, and gain the motivation to continue.
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/301)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/301)*

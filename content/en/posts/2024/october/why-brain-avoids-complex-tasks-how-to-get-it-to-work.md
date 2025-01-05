@@ -44,4 +44,4 @@ Remember: by asking the right questions, we place our brains within the necessar
 
 This happens to me all the time. But have you ever found yourself wanting to ask a question to your colleagues, only to discover the answer on your own while formulating the question?
 
-*Read the original post and join the discussion on Telegram: [@time2code](https://t.me/time2code/305)*
+*Read the original post and join the discussion in Telegram: [@time2code](https://t.me/time2code/305)*
