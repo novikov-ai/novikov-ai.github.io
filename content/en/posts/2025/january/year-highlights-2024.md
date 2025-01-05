@@ -20,10 +20,10 @@ Last year, I decided to [try](https://t.me/time2code/243) setting annual goals u
 
 I had [four](https://t.me/time2code/244) ambitious goals, and here's how I performed on the key results for each:
 
-1. 0.68 out of 1.00 🟡  
-2. 0.00 out of 1.00 🔴  
-3. 1.00 out of 1.00 🟢  
-4. 0.90 out of 1.00 🟡
+1. ✅ 0.68 из 1.00
+2. ❌ 0.00 из 1.00
+3. ✅ 1.00 из 1.00
+4. ✅ 0.90 из 1.00
 
 Just a reminder: a score between 0.6–0.7 means a great result because fully achieving an OKR indicates the goal wasn't ambitious enough.
 
