@@ -11,11 +11,11 @@ permalinks:
 params:
   description: "Sharing my expertise as a software engineer in Big Tech"
   images:
-    - "/images/blog/wallpaper.jpg"
+    - "/images/blog/wallpaper.png"
   ogAuthor: Alexander Novikov
   ogTitle: "Alexander Novikov's Personal Blog"
   ogDescription: "Sharing my expertise as a software engineer in Big Tech"
-  ogImage: "/images/blog/wallpaper.jpg"
+  ogImage: "/images/blog/wallpaper.png"
   ogType: "website"
   socialIcons:
     - name: cv
