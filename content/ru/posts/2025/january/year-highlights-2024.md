@@ -1,5 +1,5 @@
 ---
-title: 🎄 Итоги 2024 🎄
+title: 🎄 Итоги 2024
 slug: year-highlights-2024   
 date: 2025-01-05T16:39:01+03:00
 draft: false                                 
