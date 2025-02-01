@@ -26,6 +26,8 @@ params:
       url: "https://www.linkedin.com/in/novikov-ai/"
     - name: email
       url: "mailto:nvkv_ai@outlook.com"
+    - name: telegram
+      url: "https://t.me/time2code"
 
 languages:
   en: 
