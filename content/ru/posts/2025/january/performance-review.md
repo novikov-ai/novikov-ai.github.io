@@ -7,7 +7,7 @@ params:
   author: Александр Новиков                  
   ShowCodeCopyButtons: true
   ShowPostNavLinks: true
-  tags: [performance, review, bigtech, grow]     
+  tags: [perf-review, bigtech, grow]     
 weight: 10
 layout: custom-layout                                   
 ---
