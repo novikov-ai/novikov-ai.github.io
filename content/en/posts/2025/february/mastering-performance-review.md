@@ -1,7 +1,7 @@
 ---
 title: Mastering the Performance Review  
 slug: mastering-performance-review                 
-date: 2025-02-T10:44:23+03:00
+date: 2025-02-24T10:44:23+03:00
 draft: false           
 params:
   author: Alexander Novikov                  
