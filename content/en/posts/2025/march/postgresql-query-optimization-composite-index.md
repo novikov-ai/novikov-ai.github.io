@@ -71,6 +71,14 @@ Execution time: 123.456 ms
 
 ### 📔 How to read the output
 
+**Cost matters!**
+
+Actually two numbers are shown: the start-up cost before the first row can be returned, and the total cost to return all the rows. 
+
+For most queries the total **cost** is what **matters**.
+
+#### Detailed:
+
 1. **Top Level Node: Nested Loop**
    - **Cost**: `(cost=0.10..32.99 rows=4 width=85)`
      - `cost=0.10..32.99`: Estimated cost of the operation (measured in cost units that are arbitrary, but conventionally mean disk page fetches).
