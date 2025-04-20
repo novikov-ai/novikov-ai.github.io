@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Ключевые идеи</title>
+    <link rel="icon" type="image/png" href="resources/key.png">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔑 Ключевые идеи лучших книг из IT литературы</h1>
+        <p>Для тех, кто ценит свое время и хочет получить максимум практической пользы, инвестируя всего 15* минут.</p>
+        <p style="font-style: italic;">* Среднее время чтения сконцентрированной главы.</p>
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">Все</button>
+            <button class="filter-btn" data-filter="architecture">Архитектура</button>
+            <button class="filter-btn" data-filter="other">Прочее</button>
+        </div>
+
+        <div class="book-grid" id="bookGrid"></div>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal" id="bookModal">
+            <button class="close-btn">×</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script type="module" src="./scripts/script.js"> </script>
+</body>
+
+</html>

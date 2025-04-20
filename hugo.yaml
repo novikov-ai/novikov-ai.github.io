@@ -19,15 +19,20 @@ params:
   ogType: "website"
   socialIcons:
     - name: cv
+      title: CV
       url: "https://novikov-ai.github.io/cv/en.html"
     - name: github
       url: "https://github.com/novikov-ai"
     - name: linkedin
+      title: LinkedIn
       url: "https://www.linkedin.com/in/novikov-ai/"
     - name: email
       url: "mailto:nvkv_ai@outlook.com"
     - name: telegram
       url: "https://t.me/time2code"
+    - name: key
+      title: Key Ideas
+      url: "https://novikov-ai.github.io/key-ideas/index.html"
 
 languages:
   en: 
