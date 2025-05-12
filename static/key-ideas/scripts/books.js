@@ -9,8 +9,18 @@ const books = [
         chapters: [
             { title: "О книге", status: "completed", link: "https://boosty.to/time2code/posts/4832458c-de1e-4b90-a7b1-bdf784325427?share=post_link" },
             { title: "Глава 1. Побег из монолитного ада", status: "completed", link: "https://boosty.to/time2code/posts/88e2a74f-9e8b-4e14-bf20-8bde031560ad?share=post_link" },
-            { title: "Глава 2. Стратегии декомпозиции", status: "in-progress", link: "#" },
-            { title: "Глава 3. Межпроцессное взаимодействие в микросервисной архитектуре", status: "planned", link: "#" }
+            { title: "Глава 2. Стратегии декомпозиции", status: "completed", link: "https://boosty.to/time2code/posts/4fa0a1b5-64c7-428d-929f-846adbf37dc8?share=post_link" },
+            { title: "Глава 3. Межпроцессное взаимодействие в микросервисной архитектуре", status: "in-progress", link: "#" },
+            { title: "Глава 4. Управление транзакциями с помощью повествований", status: "planned", link: "#" },
+            { title: "Глава 5. Проектирование бизнес-логики в микросервисной архитектуре", status: "planned", link: "#" },
+            { title: "Глава 6. Разработка бизнес-логики с порождением событий", status: "planned", link: "#" },
+            { title: "Глава 7. Реализация запросов в микросервисной архитектур", status: "planned", link: "#" },
+            { title: "Глава 8. Шаблоны внешних API", status: "planned", link: "#" },
+            { title: "Глава 9. Тестирование микросервисов, часть 1", status: "planned", link: "#" },
+            { title: "Глава 10. Тестирование микросервисов, часть 2", status: "planned", link: "#" },
+            { title: "Глава 11. Разработка сервисов, готовых к промышленному использованию", status: "planned", link: "#" },
+            { title: "Глава 12. Развертывание микросервисов", status: "planned", link: "#" },
+            { title: "Глава 13. Процесс перехода на микросервисы", status: "planned", link: "#" }
         ]
     },
     {
