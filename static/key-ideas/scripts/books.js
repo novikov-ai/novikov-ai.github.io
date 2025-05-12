@@ -4,7 +4,7 @@ const books = [
         title: "Микросервисы",
         author: "Крис Ричардсон",
         category: "architecture",
-        progress: 7,
+        progress: 15,
         cover: "covers/microservices.png",
         chapters: [
             { title: "О книге", status: "completed", link: "https://boosty.to/time2code/posts/4832458c-de1e-4b90-a7b1-bdf784325427?share=post_link" },
