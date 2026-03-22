@@ -33,6 +33,9 @@ params:
     - name: key
       title: Key Ideas
       url: "https://novikov-ai.github.io/key-ideas/index.html"
+    - name: calendar
+      title: Seasonal Vector Framework
+      url: "https://novikov-ai.github.io/seasonal-vector-framework/"
 
 languages:
   en: 
